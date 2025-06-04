@@ -1,0 +1,28 @@
+curl -X 'POST' \
+  'https://localhost:44391/Passcreator/CreatePassV2/4175228c-6da4-470c-bde9-c82c75e92721' \
+  -H 'accept: */*' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "5b361ad1b82342.33286937": "123456",             
+  "5b361ad1b82592.54970699": "987654",              
+  "5b3b435d033579.43705944": "John",                
+  "675106b5b8ac44.45829931": "Doe",                
+  "5b361ad1b825d6.00447732": "john.doe@example.com",
+  "675106b5b8ad12.83596578": "+1234567890",        
+  "675106b5b8ad47.50114115": "123 Main St",         
+  "675106b5b8ad76.63921952": "Jane Doe",          
+  "675106b5b8adb0.41220332": "1990-01-01",         
+  "675106b5b8ade4.79412962": "Male",             
+  "675106b5b8ae19.84220332": "ABC-1234",            
+  "675106b5b8ae50.44294881": "DL1234567890",       
+  "675106b5b8ae76.17026451": "Reading, Cycling",    
+  "675106b5b8aea3.34596682": "Google Search",      
+  "675106b5b8aed9.89991781": "Billboard Ad",        
+  "675106b5b8af06.74052332": "Yes",                 
+  "userProvidedId": "user-789"                    
+}
+'
+------------------------------------------------------
+API Base URI: http://app.passcreator.com
+Membership Demo Template: 4175228c-6da4-470c-bde9-c82c75e92721
+API KEY: 2_z!faPHl6ndLGCutfA=EGE2MbAP2QjTKdRL=hux9rnHd_dzyLIM-YPwCAmpxB&FRQhzy=_o2SDlXvT4
